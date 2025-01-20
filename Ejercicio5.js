@@ -1,7 +1,7 @@
 var a;
 var b;
 var c;
-process.stdout.write("ingrese la longitud del primer cateto a:\n");
+process.stdout.write("ingrese cateto a:\n");
 process.stdin.on('data', function(data) {
     if (!a) {
         a = parseFloat(data.toString().trim());
